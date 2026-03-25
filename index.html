@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Block Breaker Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div class="game-container">
+    <h1>Block Breaker</h1>
+    <div class="score-board">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="lives">Lives: <span id="lives">3</span></div>
+    </div>
+    <canvas id="gameCanvas" width="860" height="600"></canvas>
+    <div class="controls">
+      <p id="message">Press SPACE to start</p>
+      <p class="instructions">Use ARROW KEYS or MOUSE to move the paddle</p>
+    </div>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
